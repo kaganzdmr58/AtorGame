@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#DF2424</color>
+    <color name="sari">#FFC107</color>
+    <color name="yesil">#20FF00</color>
+
+
+    <color name="avatar_mavi">#0050FF</color>
+    <color name="avatar_sari">#FFE600</color>
+    <color name="avatar_kirmizi">#FF0400</color>
+    <color name="avatar_yesil">#03FF0D</color>
+    <color name="avatar_acik_mavi">#1EF1FF</color>
+    <color name="avatar_pembe">#FA09FF</color>
+
+    <color name="xmor">#803527D8</color>
+    <color name="xyesil">#803ADF1F</color>
+    <color name="xkirmizi">#80E53131</color>
+    <color name="xsari">#80FBFF25</color>
+    <color name="gray">#919090</color>
+    <color name="text_yellow">#FF9100</color>
+
+</resources>

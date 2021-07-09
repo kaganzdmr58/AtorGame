@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgraund_black_stars_horizantal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewBildirimYazisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/so_tebrikler"
+        android:textColor="@color/text_yellow"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBilgilendirmeBaslik" />
+
+    <TextView
+        android:id="@+id/textViewEnYuksekSkor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="230"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/buttonTekrarBasla"
+        android:layout_width="364dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/text_yellow"
+        android:gravity="center"
+        android:text="@string/so_tekrar_basla"
+        android:textColor="#FDFDFD"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/adViewbanner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/so_skor"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewListe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBildirimYazisi" />
+
+    <ImageView
+        android:id="@+id/imageViewAvatarSembol"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBilgilendirmeBaslik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar_player" />
+
+    <ImageView
+        android:id="@+id/imageViewAyarlar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewListe"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewListe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewListe"
+        app:layout_constraintVertical_bias="0.471"
+        app:srcCompat="@drawable/ic_baseline_settings_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textViewAyarlar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/so_ayarlar"
+        android:textColor="@color/text_yellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewAyarlar"
+        app:layout_constraintStart_toStartOf="@+id/imageViewAyarlar"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAyarlar" />
+
+    <ImageView
+        android:id="@+id/imageViewListe"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTekrarBasla"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewRozet"
+        app:layout_constraintStart_toEndOf="@+id/imageViewAyarlar"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/ic_baseline_format_list_numbered_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textViewListe"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="@color/text_yellow"
+        android:text="@string/so_siralama"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewListe"
+        app:layout_constraintStart_toStartOf="@+id/imageViewListe"
+        app:layout_constraintTop_toTopOf="@+id/textViewAyarlar" />
+
+    <TextView
+        android:id="@+id/textViewRozet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/so_rozetler"
+        android:textColor="@color/text_yellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewRozet"
+        app:layout_constraintStart_toStartOf="@+id/imageViewRozet"
+        app:layout_constraintTop_toTopOf="@+id/textViewListe" />
+
+    <ImageView
+        android:id="@+id/imageViewRozet"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewListe"
+        app:layout_constraintTop_toTopOf="@+id/imageViewListe"
+        app:srcCompat="@drawable/ic_baseline_verified_user_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textViewBilgilendirmeBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/so_oyun_devam_ediyor"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBildirimYazisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAvatarSembol" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewbanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-2183039164562504/1461560173"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"></com.google.android.gms.ads.AdView>
+
+    <ImageView
+        android:id="@+id/imageViewKalp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+    <TextView
+        android:id="@+id/textViewCanSayisiSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="5"
+        android:textColor="@color/text_yellow"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewKalp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewKalp" />
+
+    <ImageView
+        android:id="@+id/imageViewKirikKalp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kirik_kalp_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

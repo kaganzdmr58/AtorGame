@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_birinci"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/botom_best_player" />
+    <item
+        android:id="@+id/action_ikinci"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:title="@string/botom_best_skor" />
+
+</menu>

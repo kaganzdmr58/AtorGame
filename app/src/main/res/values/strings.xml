@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Ator Math Game</string>
+
+
+    <string name="GunlukAlarmBildirimMesajı">Excitement awaits you ...</string>
+
+
+    <string name="dil">1</string>
+    <string name="Tamam">Ok</string>
+    <string name="hicCanKalmadı">"You have no more life :("</string>
+
+    <string name="a_ayarlar">SETTING</string>
+    <string name="a_name">Name</string>
+    <string name="a_skor">Score : </string>
+    <string name="a_level">Lvl : </string>
+    <string name="a_titresim">Vibration Mode</string>
+    <string name="a_ses">Sound</string>
+    <string name="a_karanlik_mod">Dark Mode</string>
+    <string name="a_avatar_renk_secimi">Avatar Color Selection</string>
+    <string name="a_siralama">Sort</string>
+    <string name="a_rozetler">Badges</string>
+    <string name="a_paylas">Share</string>
+    <string name="a_oyuna_don">BACK TO THE GAME</string>
+
+    <string name="k_basla">Start</string>
+    <string name="k_ileri">Next</string>
+    <string name="k_oyuna_basla">"Play Game"</string>
+
+    <string name="ki_name">Name</string>
+    <string name="ki_kaydet">Save</string>
+    <string name="ki_iptal">CANCEL</string>
+    <string name="ki_internet_baglantiniz_yok">"You don't have an internet connection"</string>
+    <string name="ki_internet_baglantiniz_yok_uzun">"You don't have an internet connection, you won't be able to get your Character Owner badge until the server updates. "</string>
+    <string name="ki_guncelleme_isleminde_sorun_olustu">"There was a problem with the update process."</string>
+    <string name="ki_tebrikler_karakter_sahibi_rozeti_kazandiniz">"TCongratulations you earned the Character Owner Badge."</string>
+
+
+    <string name="li_en_yuksek_skorlu_oyuncular">HIGHEST SCORE PLAYERS</string>
+    <string name="li_tamam">OK</string>
+    <string name="li_en_yuksek_skorlular">HIGHEST SCORES</string>
+    <string name="li_internet_baglantiniz_yok">"You don't have an internet connection."</string>
+    <string name="li_tebrikler_double_best">"Congratulations you have earned the Double Best Badge."</string>
+    <string name="li_tebrikler_sampiyon">"Congratulations you have won the Champion Badge."</string>
+    <string name="li_tebrikler_karakter">"Congratulations you have earned the Character Owner Badge."</string>
+    <string name="li_tebrikler_islem">"Congratulations You have earned the Process Genius Badge."</string>
+    <string name="li_tebrikler_usta">"Congratulations you have earned the Master Badge."</string>
+
+    <string name="main_hedef_sayi">"Target Number : "</string>
+    <string name="main_bonus_kazandiniz"> You earned a bonus</string>
+
+    <string name="ro_rozetler">Badges</string>
+    <string name="ro_kupa_aciklamasi">"Trophy Description"</string>
+    <string name="ro_db">"Players who are in the top Three of the two lists may be eligible to receive."</string>
+    <string name="ro_sampiyon">"Players who get the first place in one of the lists may be entitled to take."</string>
+    <string name="ro_karakter">"Players who change their avatar or name may be eligible for purchase."</string>
+    <string name="ro_deha">"Players who earn 2500 points without burning may be entitled to receive."</string>
+    <string name="ro_usta">"Players who earn 1000 points without being burned may be entitled to receive."</string>
+    <string name="ro_internet_baglantısı_olmadıgı_icin">"Your badge count could not be updated because you don't have an internet connection."</string>
+    <string name="ro_rozet_sayiniz_basariyla_guncellendi">"Your badge count has been successfully updated."</string>
+
+    <string name="so_oyun_devam_ediyor">The Game Continues</string>
+    <string name="so_tebrikler">Congratulations</string>
+    <string name="so_skor">Score : </string>
+    <string name="so_ayarlar">Settings</string>
+    <string name="so_siralama">Sort</string>
+    <string name="so_rozetler">Badges</string>
+    <string name="so_tekrar_basla">START AGAIN</string>
+    <string name="so_oyun_bitti">"GAME OVER"</string>
+    <string name="so_tebrikler2">"Cangratulations "</string>
+    <string name="so_puan_kazandın">" you earned points."</string>
+    <string name="so_uzgunuz_hic_puan_kazanamadın">"Sorry you didn't earn any points. \nWould you like to try again?"</string>
+    <string name="so_OYUN_DEVAM_EDİYOR">"THE GAME CONTINUES"</string>
+    <string name="so_cok_iyi_gidiyorsun">"You are doing very well \n"</string>
+    <string name="so_oyuna_devam_et">"CONTINUE THE GAME"</string>
+    <string name="so_internet_baglantiniz_olmadigi_icin">"Your Score cannot be saved because you do not have an internet connection."</string>
+    <string name="so_internet_baglantiniz_yok">"You don't have an internet connection."</string>
+    <string name="so_yeni_oyuncu_kaydı_yapıldı">"New Player has been registered, \n change your name and avatar."</string>
+    <string name="so_db">"You have earned the Double Best Badge."</string>
+    <string name="so_sampiyon">"You have earned the Champion Badge."</string>
+    <string name="so_karakter">"You have earned the Character Owner Badge."</string>
+    <string name="so_deha">"You have earned the Trading Genius Badge."</string>
+    <string name="so_usta">"You have earned the Master Badge."</string>
+
+
+    <string name="aler_tebrikler">CONGRATULATIONS</string>
+    <string name="aler_level">level</string>
+
+    <string name="botom_best_player">Best Player</string>
+    <string name="botom_best_skor">Best Skor</string>
+
+    <string name="alarm_canlarınız_fullendi">Your lives are completed. Would you like to continue the game?</string>
+    <string name="alarm_1_canınız_geri_geldi">1 life returned: D</string>
+
+    <string name="reklam_yüklemede_hata">There was an error loading the ad, try again.</string>
+    <string name="canlarınız_tamamlandı">Your souls are complete.</string>
+
+    <string name="isteginiz_gonderildi">Your request has been sent...</string>
+    <string name="istekGonder">Rate</string>
+    <string name="oyunumuzuNasılBuldun">How did you find our game?</string>
+
+
+    <string name="bizieleştirin"> Criticize us ...</string>
+    <string name="degerlifikirlerinizibizimlepaylaşmak">Would you like to share your valuable ideas with us?</string>
+    <string name="articankazan"> + Earn 5 Lives!</string>
+    <string name="kisabirvideoyuizleyin">Watch a short video and your lives will be fulfilled.</string>
+
+    <string name="bolumSec">SELECT SECTION</string>
+    <string name="bolumler">STAGES</string>
+    <string name="yeniBolumlerGeliyorYazısı">We are constantly uploading new episodes, see if a new episode is available soon ...</string>
+
+
+    <string name="rate_app_title">Rate App</string>
+    <string name="rate_app_message">If you are enjoying our app, please take a moment to rate it on PlayStore. Thanks for your support!</string>
+    <string name="rate_btn_pos">Rate Now</string>
+    <string name="rate_btn_neg">Remind me later</string>
+    <string name="rate_btn_nut">No, Thanks</string>
+</resources>

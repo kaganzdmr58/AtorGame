@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgraund_black_stars_horizantal"
+    tools:context=".RozetlerActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/ro_rozetler"
+        android:textColor="@color/text_yellow"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTamam"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/li_tamam"
+        android:textColor="@color/text_yellow"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewDoubleBest"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewSampiyon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/db_sari_2"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewDeha"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTamam"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewUsta"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSampiyon"
+        app:srcCompat="@drawable/islem_gri_2"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewKarakter"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSampiyon"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSampiyon"
+        app:srcCompat="@drawable/karakter_sari_2"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewSampiyon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewDeha"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewKarakter"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDoubleBest"
+        app:srcCompat="@drawable/sampiyon_gri_2"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewUsta"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDeha"
+        app:layout_constraintTop_toTopOf="@+id/imageViewDeha"
+        app:srcCompat="@drawable/usta_gri_2"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

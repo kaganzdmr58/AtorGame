@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Ator Matematik Oyunları</string>
+
+
+    <string name="GunlukAlarmBildirimMesajı">Heyecan seni bekliyor...</string>
+
+
+
+    <string name="dil">2</string>
+    <string name="Tamam">Tamam</string>
+    <string name="hicCanKalmadı">"Hiç canınız kalmadı :("</string>
+
+
+    <string name="a_ayarlar">AYARLAR</string>
+    <string name="a_name">Name</string>
+    <string name="a_skor">Skor : </string>
+    <string name="a_level">Lvl : </string>
+    <string name="a_titresim">Titreşim</string>
+    <string name="a_ses">Ses</string>
+    <string name="a_karanlik_mod">Karanlık Mod</string>
+    <string name="a_avatar_renk_secimi">Avatar Renk Seçimi</string>
+    <string name="a_siralama">Sıralama</string>
+    <string name="a_rozetler">Rozetler</string>
+    <string name="a_paylas">Paylaş</string>
+    <string name="a_oyuna_don">OYUNA DÖN</string>
+
+    <string name="k_basla">Başla</string>
+    <string name="k_ileri">ileri</string>
+    <string name="k_oyuna_basla">"Oyuna Başla"</string>
+
+
+    <string name="ki_name">Name</string>
+    <string name="ki_kaydet">Kaydet</string>
+    <string name="ki_iptal">İPTAL</string>
+    <string name="ki_internet_baglantiniz_yok">"internet bağlantınız yok"</string>
+    <string name="ki_internet_baglantiniz_yok_uzun">"internet bağlantınız yok,
+                                                    Karakter Sahibi rozetinizi sunucu
+                                                    güncellemesine kadar alamazsınız. "</string>
+    <string name="ki_guncelleme_isleminde_sorun_olustu">"Güncelleme işleminde sorun oluştu."</string>
+    <string name="ki_tebrikler_karakter_sahibi_rozeti_kazandiniz">"Tebrikler Karakter Sahibi Rozeti kazandınız."</string>
+
+
+
+
+    <string name="li_en_yuksek_skorlu_oyuncular">EN YÜKSEK SKORLU OYUNCULAR</string>
+    <string name="li_tamam">TAMAM</string>
+    <string name="li_en_yuksek_skorlular">EN YÜKSEK SKORLAR</string>
+    <string name="li_internet_baglantiniz_yok">"İnternet bağlantınız yok."</string>
+    <string name="li_tebrikler_double_best">"Tebrikler Double Best Rozeti kazandınız."</string>
+    <string name="li_tebrikler_sampiyon">"Tebrikler Şampiyon Rozeti kazandınız."</string>
+    <string name="li_tebrikler_karakter">"Tebrikler Karakter Sahibi Rozeti kazandınız."</string>
+    <string name="li_tebrikler_islem">"Tebrikler İşlem Dehası Rozeti kazandınız."</string>
+    <string name="li_tebrikler_usta">"Tebrikler Usta Rozeti kazandınız."</string>
+
+    <string name="main_hedef_sayi">"Hedef Sayı : "</string>
+    <string name="main_bonus_kazandiniz"> bonus kazandınız</string>
+
+    <string name="ro_rozetler">Rozetler</string>
+    <string name="ro_kupa_aciklamasi">"Kupa Açıklaması"</string>
+    <string name="ro_db">"İki listede ilk Üç içerisine giren oyuncular almaya hak kazanabilmektedir."</string>
+    <string name="ro_sampiyon">"Listelerden birinde birincilik elde eden oyuncular almaya hak kazanabilmektedir."</string>
+    <string name="ro_karakter">"Avatarını veya ismini değiştiren oyuncular almaya hak kazanabilmektedir."</string>
+    <string name="ro_deha">"Yanmadan 2500 puan kazanan oyuncular almaya hak kazanabilmektedir."</string>
+    <string name="ro_usta">"Yanmadan 1000 puan kazanan oyuncular almaya hak kazanabilmektedir."</string>
+    <string name="ro_internet_baglantısı_olmadıgı_icin">"İnternet bağlantınız olmadığı için rozet sayınız güncellenemedi."</string>
+    <string name="ro_rozet_sayiniz_basariyla_guncellendi">"Rozet sayınız başarıyla güncellendi."</string>
+
+    <string name="so_oyun_devam_ediyor">Oyun Devam Ediyor</string>
+    <string name="so_tebrikler">Tebrikler</string>
+    <string name="so_skor">Skor : </string>
+    <string name="so_ayarlar">Ayarlar</string>
+    <string name="so_siralama">Sıralama</string>
+    <string name="so_rozetler">Rozetler</string>
+    <string name="so_tekrar_basla">TEKRAR BAŞLA</string>
+    <string name="so_oyun_bitti">"OYUN BİTTİ"</string>
+    <string name="so_tebrikler2">"Tebrikler "</string>
+    <string name="so_puan_kazandın">" puan kazandın."</string>
+    <string name="so_uzgunuz_hic_puan_kazanamadın">"Üzgünüz hiç puan kazanamadın.\nTekrar denemek ister misin?"</string>
+    <string name="so_OYUN_DEVAM_EDİYOR">"OYUN DEVAM EDİYOR"</string>
+    <string name="so_cok_iyi_gidiyorsun">"Çok iyi gidiyorsun\n"</string>
+    <string name="so_oyuna_devam_et">"OYUNA DEVAM ET"</string>
+    <string name="so_internet_baglantiniz_olmadigi_icin">"İnternet bağlantınız olmadığı için, Puanınız kayıt edilemiyor."</string>
+    <string name="so_internet_baglantiniz_yok">"İnternet bağlantınız yok."</string>
+    <string name="so_yeni_oyuncu_kaydı_yapıldı">"Yeni Oyuncu kaydı yapıldı,\n isim ve avatarınızı değiştiriniz."</string>
+    <string name="so_db">"Double Best Rozeti kazandınız."</string>
+    <string name="so_sampiyon">"Şampiyon Rozeti kazandınız."</string>
+    <string name="so_karakter">"Karakter Sahibi Rozeti kazandınız."</string>
+    <string name="so_deha">"İşlem Dehası Rozeti kazandınız."</string>
+    <string name="so_usta">"Usta Rozeti kazandınız."</string>
+
+
+
+    <string name="aler_tebrikler">TEBRİKLER</string>
+    <string name="aler_level">level</string>
+
+    <string name="botom_best_player">Best Player</string>
+    <string name="botom_best_skor">Best Skor</string>
+
+    <string name="alarm_canlarınız_fullendi">Canlarınız tamamlandı oyuna devam etmek ister misiniz?</string>
+    <string name="alarm_1_canınız_geri_geldi">1 canınız geri geldi :D</string>
+
+    <string name="reklam_yüklemede_hata">Reklam yüklemede hata oluştu tekrar deneyiniz.</string>
+    <string name="canlarınız_tamamlandı">Canlarınız tamamlandı.</string>
+
+    <string name="isteginiz_gonderildi">İsteğiniz gönderildi...</string>
+    <string name="istekGonder">Puanla</string>
+    <string name="oyunumuzuNasılBuldun">Oyunumuzu nasıl buldun ?</string>
+
+    <string name="bizieleştirin"> Bizi eleştirin...</string>
+    <string name="degerlifikirlerinizibizimlepaylaşmak">Değerli fikirlerinizi bizimle paylaşmak ister misiniz ?</string>
+    <string name="articankazan"> + 5 Can kazan !</string>
+    <string name="kisabirvideoyuizleyin">Kısa bir videoyu izleyin ve canlarınız tammalansın.</string>
+
+    <string name="bolumSec">BÖLÜM SEÇ</string>
+    <string name="bolumler">BÖLÜMLER</string>
+    <string name="yeniBolumlerGeliyorYazısı">Sürekli yeni bölüm yüklüyoruz, kısa bir süre sonra yeni bölüm gelip gelmediğine bak...</string>
+
+
+
+    <string name="rate_app_title">Rate App</string>
+    <string name="rate_app_message">If you are enjoying our app, please take a moment to rate it on PlayStore. Thanks for your support!</string>
+    <string name="rate_btn_pos">Rate Now</string>
+    <string name="rate_btn_neg">Remind me later</string>
+    <string name="rate_btn_nut">No, Thanks</string>
+
+
+
+
+
+</resources>
